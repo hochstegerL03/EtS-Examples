@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--Gibt an, dass es sich um ein HTML file handelt (neben der Dateiendung .html)-->
+<html lang="de">
+  <!--Hiermit geben wir an, auf welcher Sprache unsere Website ist, also ob Google z.B. eine Übersetzung auf die Browsersprache anbieten will-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--Genutze Codierung für Unicode, also wie Zeichen für den Computer einzigartig dargestellt werden-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- http-equiv="X-UA-Compatible" erlaubt uns auszusuchen, mit welcher Intenet Explorer Version unsere Seite gerendert wird. content="IE=edge" gibt damit an, wie diese Version bestimmt wird.
+      "edge" sagt aus, dass immer die neueste Version genutzt werden soll. Heutzutage ist dieser Tag nicht mehr verpflichtend, außer man möchte ältere (legacy) Browser explizit unterstützen-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Beschreibt den Viewport der Website. Viewport ist der Bereich, in welchem Web Content (unsere Website) im Fenster (Browser / Tab) angezeigt wird. "width=device-width" gibt an, dass 100% (100vw) des Fensters genutzt werden soll. "initial-scale=1.0" gibt das Zoom Level beim Start der Website an, wobei 1 gleich kein Zoom ist. Der Zoom kann vom Bsucher auch mit Strg +/- auch händisch geändert werden-->
+    <title>Grundlagen von HTML</title>
+    <!--Der Titel der Website über der Suchleiste (Der Tab Name)-->
+    <link rel="stylesheet" href="grundlagenVonHtml.css" />
+    <!--Hiermit binden wir unser eigenes CSS ein. Für diese Aufgabe ist das einfach zu ignorieren!-->
+  </head>
+  <body>
+    <!--Header, main und footer müssen nicht genutzt werden, dienen aber zur Veranschaulichung der Bereiche und Scopes. 90% der meisten Websites werden sich im Main oder einem normalen div abspielen!-->
+    <header>
+      <!--Scope 1-->
+      <h6 class="header">Header</h6>
+      <!--Alles was unter class="" steht bezieht sich auf Styling Attribute von unserem CSS File-->
+    </header>
+    <main class="w-90">
+      <!--Scope 1-->
+      <div class="flex-container items-center">
+        <!--Scope 2-->
+        <div class="text ytext-left">
+          <!--Scope 3-->
+          Body:
+          <p>
+            <!--Scope 4-->
+            <b>Mein Name lautet: Name</b>
+          </p>
+          <p>Und das ist meine erste Webseite</p>
+        </div>
+        <div class="ytext-right center-image">
+          <!--Scope 3.2-->
+          <img src="pfp.png" class="fit" />
+        </div>
+      </div>
+      <!--Scope 1-->
+      <div class="flex-container">
+        <!--Scope 2-->
+        <div class="bg-primary">
+          <!--Scope 3-->
+        </div>
+        <div class="bg-secondary">
+          <!--Scope 3-->
+        </div>
+        <div class="bg-accent">
+          <!--Scope 3-->
+        </div>
+      </div>
+      <!--Scope 1-->
+      <p>Ich bin ein p-Tag</p>
+      <div>Ich bin ein Div Tag</div>
+      <span>Ich bin ein Span-Tag</span>
+      <h2>Ich bin ein h-Tag</h2>
+      <unknownErrorXXX>Und ich bin ein ungültiger Tag</unknownErrorXXX>
+    </main>
+    <footer>
+      <!--Scope 1-->
+      <div class="footer w-100">
+        <!--Scope 2-->
+        <h2>Footer</h2>
+      </div>
+    </footer>
+  </body>
+</html>
