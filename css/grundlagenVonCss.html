@@ -12,7 +12,7 @@
       <h1 class="header">Grundlagen von CSS</h1>
     </header>
     <main>
-      <div class="flex">
+      <div class="flex-column">
         <div class="card">
           <img src="css.png" alt="A Cool Image" class="image" />
           <div>
@@ -32,18 +32,30 @@
           <div>
             <p class="title">Padding & Margin:</p>
             <div class="card-text">
-              <span class="underline">Hier</span> <span class="font-color">können</span>
-              <span class="overline">wir</span>
-              <span class="font-family">wunderbar</span> <span class="font-variant">unsere</span>
-              <span class="letter-spacing">Schrift "verschönern"</span>
-              <span class="text-transform">und</span>
-              <span style="font-style: italic">ganz ganz viel Spaß mit CSS haben!</span>
+              <div class="border-padding">Ich bin ein Text mit Padding</div>
+              <div class="border-margin">Und ich bin ein Text mit Margin</div>
             </div>
           </div>
         </div>
-        <div class="card">Test</div>
-        <div class="card">Test</div>
-        <div class="card">Test</div>
+        <div class="card">
+          <div class="flex flexbox-example">
+            <div class="align-self-top"></div>
+            <div class="align-self-center"></div>
+            <div class="align-self-bottom"></div>
+          </div>
+          <div>
+            <p class="title">Flexbox:</p>
+            <div class="card-text">
+              <div>Flexbox ist einfach das beste! Siehe ^ oder:</div>
+              <div class="flex row">
+                <div class="col-5"></div>
+                <div class="col-3"></div>
+                <div class="col-2"></div>
+              </div>
+              <div>Schau. Wie schön doch CSS sein kann (aber nur mit vielen Flexboxen</div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer></footer>

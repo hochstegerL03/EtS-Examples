@@ -1,4 +1,4 @@
-.flex {
+.flex-column {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -7,21 +7,52 @@
   align-items: stretch;
 }
 
+.flex {
+  display: flex;
+}
+
+.flexbox-example {
+  justify-content: space-evenly;
+  aspect-ratio: 2 / 1;
+  gap: 5%;
+}
+
+.align-self-top {
+  background-color: #006d77;
+  width: 30%;
+  aspect-ratio: 1;
+  align-self: flex-start;
+}
+
+.align-self-center {
+  background-color: #83c5be;
+  width: 30%;
+  aspect-ratio: 1;
+  align-self: center;
+}
+
+.align-self-bottom {
+  background-color: #edf6f9;
+  width: 30%;
+  aspect-ratio: 1;
+  align-self: flex-end;
+}
+
 .card {
-  width: 70%;
-  max-width: 15rem;
+  max-width: 20rem;
   box-shadow: 0px 5px 8px 1px rgb(0, 109, 119, 0.2);
   min-height: 30vh;
-  padding: 3%;
+  padding: 3rem;
   margin-bottom: 5%;
   transition: 0.25s;
+  aspect-ratio: 5 / 9;
 }
 .card:hover {
   box-shadow: 0px 10px 10px 2px rgb(0, 109, 119, 0.2);
 }
 
 .padding-visual {
-  height: 10rem;
+  padding: 40%;
   border: solid #006d77 10px;
 }
 
@@ -75,4 +106,37 @@
 
 .text-transform {
   text-transform: uppercase;
+}
+
+.border-padding {
+  border: solid #006d77;
+  padding: 1rem;
+  margin-bottom: 1rem; /* Kleiner Styling Eingriff, um die Karte schöner zu gestalten :) */
+}
+
+.border-margin {
+  border: solid #006d77;
+  margin: 1rem;
+}
+
+.row {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 1.5rem;
+}
+
+.col-5 {
+  width: 50%;
+  background-color: #006d77;
+  padding: 20%;
+}
+
+.col-3 {
+  width: 30%;
+  background-color: #83c5be;
+}
+
+.col-2 {
+  width: 20%;
+  background-color: #edf6f9;
 }
