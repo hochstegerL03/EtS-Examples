@@ -23,6 +23,12 @@
   gap: 5%;
 }
 
+.row {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 1.5rem;
+}
+
 /* Alignment der Flex-Elemente */
 .align-self-top {
   background-color: #006d77;
@@ -100,56 +106,47 @@
 .font-color {
 }
 
-
+/* Füge einen Strich überm Text ein (overline) */
 .overline {
-  text-decoration: overline;
 }
 
+/* Änder die Font Family (Schriftart) zu "monospace" */
 .font-family {
-  font-family: monospace;
 }
 
+/* Ändere die Font Variant zu "small-caps" */
 .font-variant {
-  font-variant: small-caps;
 }
 
+/* Erhöhe den Abstand zwischen den Zeichen (Letter Space) auf 2px */
 .letter-spacing {
-  letter-spacing: 2px;
 }
 
+/* Sorge dafür, dass der ganze Text in Capslock angezeigt wird (ohne es im HTML zu ändern) */
 .text-transform {
-  text-transform: uppercase;
 }
 
+/* Füge einen soliden Border mit der Farbe #006d77 und einem padding von 1rem hinzu. */
 .border-padding {
-  border: solid #006d77;
-  padding: 1rem;
   margin-bottom: 1rem; /* Kleiner Styling Eingriff, um die Karte schöner zu gestalten :) */
 }
 
+/* Füge den gleichen Border wie oben hinzu und ein margin von 1rem */
 .border-margin {
   border: solid #006d77;
   margin: 1rem;
 }
 
-.row {
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin: 1.5rem;
-}
+/* Jetzt wird es ernst, hehe ^^ */
+
+/* Füge in die drei col-5/3/2 Klassen passende Breiten (so dass am Ende 100% der Breite genutzt werden) und folgende Background-Colors (#006d77, #83c5be, #edf6f9) hinzu*/
 
 .col-5 {
-  width: 50%;
-  background-color: #006d77;
-  padding: 20%;
+  padding: 20%; /* Kleine Hilfe, um die Breite schön dynamisch zu gestalten*/
 }
 
 .col-3 {
-  width: 30%;
-  background-color: #83c5be;
 }
 
 .col-2 {
-  width: 20%;
-  background-color: #edf6f9;
 }
