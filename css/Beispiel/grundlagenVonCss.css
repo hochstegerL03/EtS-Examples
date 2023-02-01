@@ -1,5 +1,11 @@
+/* gültig für die ganze Seite: Font wird zu Roboto geändert*/
 * {
   font-family: 'Roboto', sans-serif;
+}
+
+/* Alles was mit Flex Container zu tun hat */
+.flex {
+  display: flex;
 }
 
 .flex-column {
@@ -11,16 +17,13 @@
   align-items: stretch;
 }
 
-.flex {
-  display: flex;
-}
-
 .flexbox-example {
   justify-content: space-evenly;
   aspect-ratio: 2 / 1;
   gap: 5%;
 }
 
+/* Alignment der Flex-Elemente */
 .align-self-top {
   background-color: #006d77;
   width: 30%;
@@ -42,6 +45,7 @@
   align-self: flex-end;
 }
 
+/* Design der Cards (mit kleiner Hover Animation) */
 .card {
   max-width: 20rem;
   box-shadow: 0px 5px 8px 1px rgb(0, 109, 119, 0.2);
@@ -55,24 +59,31 @@
   box-shadow: 0px 10px 10px 2px rgb(0, 109, 119, 0.2);
 }
 
+/* Kleine Spielerei statt ein einfaches Bild zu nutzen ^^ */
 .padding-visual {
   padding: 40%;
   border: solid #006d77 10px;
 }
 
 /*To-Do*/
+
+/* Erweitere die CSS Klasse so das:
+  - der Text regular und nicht bold ist
+  - der Text mittig ist
+*/
 .header {
-  font-weight: normal;
-  text-align: center;
   text-decoration: solid underline #006d77 7px;
   text-underline-offset: 1rem; /* Damit der Underline weiter vom Text entfernt ist :) */
   margin-bottom: 5rem;
 }
 
+/* Sorge dafür, dass das Bild 100 der verfügbaren Breite in Anspruch nimmt:
+   Achte darauf, dass die Weite des Containers nicht der, des Viewports (Tabs) gleicht
+*/
 .image {
-  width: 100%;
 }
 
+/* */
 .title {
   font-weight: bold;
   font-size: 1.3rem;
