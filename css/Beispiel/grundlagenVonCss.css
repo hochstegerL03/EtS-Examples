@@ -83,25 +83,23 @@
 .image {
 }
 
-/* */
+/* Sorge dafür, dass der Text bold und mit einer Schriftgröße von 1.3rem angezeigt wird */
 .title {
-  font-weight: bold;
-  font-size: 1.3rem;
   margin-top: 1rem;
 }
 
+/* Änder den Linieabstand (Line Height) des Card-Textes zu 1.3rem und füge einen Margin von 1rem hinzu */
 .card-text {
-  margin: 1rem;
-  line-height: 1.3rem;
 }
 
+/* Unterstreiche den Text / Füge einen Underline ein, mit dem Style "wavy" */
 .underline {
-  text-decoration: underline wavy;
 }
 
+/* Ändere die Schriftfarbe zu #006d77*/
 .font-color {
-  color: #006d77;
 }
+
 
 .overline {
   text-decoration: overline;
