@@ -6,13 +6,10 @@ console.log(
 //Wichtig zu Wissen: Dieses Beispiel kann in der Konsole über "node grundlagenVonJavaScript.js" gestartet werden!
 console.log('\n');
 console.log('Deklarationen und Variablen: \n');
-
-let scope1 = 'Ich bin gültig für das ganze File!';
-const konstant = 'Ich kann nach meiner Deklaration nicht mehr geändert werden';
-var global;
+//AUFGABE: Deklariere drei Variablen: Die lokale Variable "scope1", die Konstante "konstant" und die globale Variable "global". Weise "scope1" und "konstant" jeweils einen sinnvollen Wert zu!
 
 console.log('scope1: ' + scope1);
-console.log('konstant: ' + konstant);
+//AUFGABE: Gib die Variable "konstant" nun selber aus
 console.log(`global: '${global}' \n`);
 console.log('Das sind die Variablen welche wir später noch gebrauchen werden :)');
 
@@ -20,45 +17,42 @@ console.log(
   'Nun da wir unsere ersten Variablen angelegt haben, können wir auch etwas Spaß mit ihnen haben',
 );
 
-console.log('_'.repeat(process.stdout.columns) + '\n'); //gibt an wie weit (in Columns) das Terminal ist und wiederholt - so oft.
+console.log('_'.repeat(process.stdout.columns) + '\n'); //gibt an wie weit (in Columns) das Terminal ist und wiederholt "-"" so oft.
 
 console.log('Manipulation von Variablen: \n');
 
-console.log('vorher:');
-console.log(` scope1: ${scope1}; \n konstant: ${konstant}; global: \n '${global}'`);
-
-scope1 = 'Neuer Wert';
-global = 'Ich hab endlich einen Wert!!';
-
-console.log('\nnachher');
-console.log(` scope1: ${scope1}; \n konstant: ${konstant}; \n global: '${global}'`);
+//AUFGABE: Ändere die Werte unserer 2 Variablen und gib ein vorher, wie nachher aus!
 
 console.log('_'.repeat(process.stdout.columns) + '\n');
 
 console.log('Schleifen und Bedingungen: \n');
 
+//AUFGABE: Erstelle eine While Schleife, welche unser console.log'_'.repeat(process.stdout.columns)) simuliert. Ersetze das "-" durch ein "~"
+//Tipp: Alle notwendigen Variablen wurden schon für dich angelegt!
+
 console.log('Das ist eine While-Schleife:');
 let counter = 0;
 let ergebnis = '~';
 while (counter < process.stdout.columns - 1) {
-  ergebnis += '~';
-  counter++;
+  //Dein Code hier...
 }
 console.log(ergebnis + '\n');
 
 console.log('Und das ist eine For-Schleife:');
 
+//AUFGABE: Mit der Erfahrung von der While-Schleife, probiere nun die For-Schleife alleine zu programmieren
 ergebnis = '.';
-for (let i = 0; i < process.stdout.columns - 1; i++) {
-  ergebnis += '.';
-}
+
+//Dein Code hier...
+
 console.log(ergebnis + '\n');
 
 console.log('Doch was können eigentlich Bedingungen? \n');
 
 console.log('Sie können Code bedingt rendern:');
 
-if (ergebnis.length > 0) {
+//AUFGABE: Gib den Text nur aus, wenn ergebnis eine Länge von über Null hat!
+if () {
   console.log(' - ergebnis.length war größer Null!');
 }
 
@@ -67,9 +61,11 @@ console.log('Oder sie können zwischen Code Blöcke bestimmt auswählen und rend
 const wert1 = 8;
 const wert2 = '8';
 
-if (wert1 === wert2) {
+//AUFGABE: Setze die richtigen Bedingungen, so dass der ausgegebene Satz mit dieser übereinstimmt.
+
+if () {
   console.log(' - Beide haben den selben Wert und Datentypen');
-} else if (wert1 == wert2) {
+} else if () {
   console.log(' - Beiden haben den selben Wert');
 } else {
   console.log(' - Die beiden Werte sind ungleich');
