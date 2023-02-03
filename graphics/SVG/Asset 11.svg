@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.27 115.28">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: RobotoMono-Bold, 'Roboto Mono';
+        font-size: 60px;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #006d77;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-1" transform="translate(0 51.33)"><tspan x="0" y="0">Const</tspan></text>
+      <g>
+        <path class="cls-2" d="m20.85,90.37l-6.55,7.41H0l34.42-35.5h11.99l9.73,35.5h-13.53l-1.4-7.41h-20.37Zm19.26-5.83l-2.46-12.99-11.55,12.99h14.01Z"/>
+        <path class="cls-2" d="m94.94,97.78l-11.17-23.14-7.94,23.14h-13.29l12.13-35.5h13.05l11.03,23.04,7.99-23.04h13.24l-12.18,35.5h-12.85Z"/>
+        <path class="cls-2" d="m160.08,67.87l-10.25,29.91h-13.24l10.25-29.91h-20.7l1.93-5.58h54.93l-1.97,5.58h-20.94Z"/>
+      </g>
+      <polygon class="cls-2" points="176 110.28 0 110.28 7 105.28 183 105.28 176 110.28"/>
+      <polygon class="cls-2" points="138.59 115.28 52.88 115.28 56.29 113.28 142 113.28 138.59 115.28"/>
+    </g>
+  </g>
+</svg>
