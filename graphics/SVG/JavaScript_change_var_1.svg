@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258 387.84">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke-width: 8px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: #006d77;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        fill: #83c5be;
+      }
+
+      .cls-4 {
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-6 {
+        font-size: 48px;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #006d77;
+      }
+
+      .cls-7 {
+        font-size: 24px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-5" d="m8,316.1h139.69v63.74h64.87v-63.74h37.44v-52.5h-37.44v-125.76h-118.87L8,275.42v40.68Zm139.69-52.5h-80.04l73.74-115.04,6.3-11.2v126.24Z"/>
+      <rect class="cls-3" x="4" y="133.84" width="250" height="250"/>
+      <text class="cls-6" transform="translate(85.79 41.06)"><tspan x="0" y="0">Var</tspan><tspan x="-28.8" y="57.6">(new)</tspan></text>
+      <rect class="cls-4" x="43.97" y="250.78" width="79.37" height="79.37"/>
+      <text class="cls-7" transform="translate(63.17 203.53)"><tspan x="0" y="0">Var</tspan><tspan x="-14.4" y="28.8">(old)</tspan></text>
+      <text class="cls-2" transform="translate(69.25 306.7)"><tspan x="0" y="0">2</tspan></text>
+      <g>
+        <path class="cls-1" d="m157.22,287.67h8.58v5.95h-8.58v9.66h-6.21v-9.66h-8.6v-5.95h8.6v-9.23h6.21v9.23Z"/>
+        <path class="cls-1" d="m214.87,306.7h-23.27v-4.45l11.04-11.86c.86-.94,1.59-1.79,2.18-2.55s1.07-1.46,1.44-2.1.63-1.22.8-1.77.25-1.08.25-1.59c0-.77-.11-1.45-.33-2.04s-.53-1.1-.93-1.51-.88-.73-1.43-.95-1.17-.33-1.84-.33c-1.8,0-3.14.5-4.02,1.5s-1.32,2.4-1.32,4.2h-6.54c0-1.52.29-2.95.87-4.3s1.39-2.54,2.45-3.55,2.33-1.82,3.82-2.4,3.14-.88,4.96-.88,3.27.24,4.61.73,2.45,1.16,3.35,2.04,1.58,1.93,2.05,3.15.7,2.58.7,4.07c0,1.12-.18,2.2-.53,3.22s-.85,2.04-1.5,3.04-1.43,2.02-2.33,3.06-1.91,2.13-3.02,3.27l-6.42,6.8h14.98v5.23Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
