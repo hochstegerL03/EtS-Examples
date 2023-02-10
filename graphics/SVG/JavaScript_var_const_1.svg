@@ -5,7 +5,7 @@
       .cls-1 {
         font-family: RobotoMono-Bold, 'Roboto Mono';
         font-size: 60px;
-        font-variation-settings: ';
+        font-variation-settings: 'wght' 700;
         font-weight: 700;
       }
 

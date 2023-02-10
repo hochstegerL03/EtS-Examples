@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 439.85 183.99">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        fill: #006d77;
+        font-family: Roboto-MediumItalic, Roboto;
+        font-size: 16.03px;
+        font-style: italic;
+        font-weight: 500;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #83c5be;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: ReemKufi-Bold, 'Reem Kufi';
+        font-size: 24.66px;
+        font-weight: 700;
+        opacity: .96;
+      }
+
+      .cls-6 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-7 {
+        stroke: #e29578;
+      }
+
+      .cls-7, .cls-4 {
+        stroke-width: 5px;
+      }
+
+      .cls-7, .cls-4, .cls-8 {
+        stroke-linejoin: round;
+      }
+
+      .cls-7, .cls-5 {
+        fill: #ffddd2;
+      }
+
+      .cls-4, .cls-8 {
+        stroke: #006d77;
+      }
+
+      .cls-8 {
+        fill: #edf6f9;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-7" x="2.5" y="2.5" width="319.11" height="178.99"/>
+      <rect class="cls-4" x="57.05" y="36.99" width="210" height="110"/>
+      <g>
+        <rect class="cls-8" x="122.56" y="71.31" width="78.98" height="41.37"/>
+        <text class="cls-2" transform="translate(148.7 96.68)"><tspan class="cls-6" x="0" y="0">Y</tspan><tspan x="9.05" y="0">ou</tspan></text>
+      </g>
+      <text class="cls-3" transform="translate(340.98 58.71)"><tspan x="0" y="0">Padding</tspan></text>
+      <text class="cls-5" transform="translate(340.98 23.6)"><tspan x="0" y="0">Ma</tspan><tspan class="cls-1" x="38.52" y="0">r</tspan><tspan x="48.14" y="0">gin</tspan></text>
+    </g>
+  </g>
+</svg>

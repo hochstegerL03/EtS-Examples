@@ -8,16 +8,16 @@
 
       .cls-1, .cls-2 {
         font-family: RobotoMono-Bold, 'Roboto Mono';
-        font-variation-settings: ';
+        font-variation-settings: 'wght' 700;
         font-weight: 700;
-      }
-
-      .cls-2 {
-        font-size: 21px;
       }
 
       .cls-3 {
         fill: #006d77;
+      }
+
+      .cls-2 {
+        font-size: 21px;
       }
     </style>
   </defs>
